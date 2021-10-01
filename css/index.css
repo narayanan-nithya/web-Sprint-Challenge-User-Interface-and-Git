@@ -68,7 +68,7 @@ nav{
     top:3%;
     text-decoration: none;
 }
-
+/*logo and navigation*/
 .logo{
     width:7%;
 }
@@ -80,13 +80,14 @@ nav{
     justify-content: space-evenly;
     align-items: center;
 }
+/*Homepage container styles*/
 .container {
     width: 100%;
     margin: 0 auto;
 }
 
 
-
+/*homepage top content styles*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -108,7 +109,7 @@ nav{
     padding: 2%;
 
 }
-
+/*homepage mid content and box styles*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -165,6 +166,7 @@ nav{
 .box10{
     background-color:blue;
 }
+/*homepage bottom content styles*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -178,6 +180,7 @@ nav{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/*about page styles begin*/
 .containerabout-page{
     width: 100%;
     margin: 0 auto;
@@ -195,6 +198,7 @@ nav{
 .ab-top-section p{
     margin-bottom: 18px;
 }
+/*about page start section styles*/
 .start-section{
     display: flex;
     width:100%;
@@ -264,6 +268,7 @@ nav{
     width:90px;
     height:30px;
 }
+/*about page mid section styles*/
 .mid{
     display: flex;
     width:100%;
@@ -271,6 +276,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
 }
+/*about page bottom section styles*/
 .bottom{
     margin-top:30px;
     text-align: justify;
@@ -278,6 +284,7 @@ nav{
 .bottom h2{
     margin-bottom:18px;
 }
+/*home and about page footer styles*/
 footer {
     width: 100%;
     background: black;
