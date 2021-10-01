@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    padding:3%;
+    padding-right:7%;
+    padding-left:7%;
 }
 
 /*general styles*/
@@ -79,6 +80,8 @@ nav{
     margin: 0 auto;
 }
 
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -88,16 +91,17 @@ nav{
     border-bottom: 1px dashed black;
 }
 
+
 .top-content img{
     width: 100%;
 
 }
 
+
 .top-content .text-container {
     width: 48%;
     padding: 2%;
     padding: 27px;  
-
 
 }
 
@@ -170,7 +174,23 @@ nav{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.containerabout-page{
+    width: 100%;
+    margin: 0 auto;
+}
+.abtjumbo img{
+    width:100%;
+    margin-top:18px;
+}
+.ab-top-section{
+    margin-top: 36px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    text-align: justify;
+}
+.ab-top-section p{
+    margin-bottom: 18px;
+}
 footer {
     width: 100%;
     background: black;
